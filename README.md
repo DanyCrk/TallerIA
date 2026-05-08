@@ -7,7 +7,7 @@ Dichas respuestas se encuentran en cada carpeta que hay en el repositorio.
 Haciendo una comparativa para ver cual IA tuvo mejor desempeño en la tarea asignada se obtiene lo siguiente:
 
 Pruebas y cobertura
-En cuanto a Suite completa, aislamiento, fixtures, Claude tuvo un mejor desempeño por sobhre Deepseek.
+En cuanto a Suite completa, aislamiento, fixtures, Claude tuvo un mejor desempeño por sobre Deepseek.
 
 ---
 Claude gana en criterios de producción real: tests verificados, código ejecutable sin modificaciones y mayor cobertura del SPEC. 
