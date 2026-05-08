@@ -26,7 +26,7 @@ Authorization, es la forma idiomática y genera documentación OpenAPI automáti
 Segundo, su logging en auth_service.py es más granular ya que registra eventos específicos por función con el user_id incluido, 
 lo que es mejor para auditoría en producción. 
 También detecta reuso de token con una respuesta más agresiva, lo cual es una práctica de seguridad defensiva válida.
-Lo que DeepSeek hace u claude no es que el middleware CORS configurado desde variables de entorno, 
+Lo que DeepSeek hace y claude no, es que el middleware CORS esta configurado desde variables de entorno, 
 la separación de dependencies.py como archivo propio, y el campo ALGORITHM en settings 
 
 
