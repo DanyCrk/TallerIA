@@ -1,0 +1,40 @@
+auth-service/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── v1/
+│   │       ├── __init__.py
+│   │       └── auth.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── security.py
+│   │   └── dependencies.py
+│   ├── db/
+│   │   ├── __init__.py
+│   │   └── session.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── user.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   └── auth.py
+│   └── services/
+│       ├── __init__.py
+│       └── auth_service.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_register.py
+│   ├── test_login.py
+│   ├── test_refresh.py
+│   ├── test_password_reset.py
+│   └── test_profile.py
+├── alembic/
+│   └── versions/  (Migraciones generadas automáticamente)
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
+├── Dockerfile
+└── requirements.txt

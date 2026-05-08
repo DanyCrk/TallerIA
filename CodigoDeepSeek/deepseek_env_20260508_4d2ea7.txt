@@ -1,0 +1,24 @@
+# Database
+DATABASE_URL=postgresql://auth_user:securepassword@postgres:5432/auth_db
+
+# JWT
+SECRET_KEY=your-256-bit-secret-key-must-be-at-least-32-chars-long!
+ACCESS_TOKEN_EXPIRE_MINUTES=15
+REFRESH_TOKEN_EXPIRE_DAYS=7
+
+# Password Reset
+RESET_TOKEN_EXPIRE_MINUTES=30
+BCRYPT_ROUNDS=12
+
+# Rate Limiting
+RATE_LIMIT_PER_MINUTE=10
+
+# Email (SMTP)
+SMTP_HOST=smtp.sendgrid.net
+SMTP_PORT=587
+SMTP_USER=apikey
+SMTP_PASSWORD=your-sendgrid-api-key
+SMTP_FROM_EMAIL=noreply@yourapp.com
+
+# Environment
+ENVIRONMENT=development
